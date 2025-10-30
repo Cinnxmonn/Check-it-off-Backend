@@ -1,8 +1,69 @@
-# Default ignored files
-/shelf/
-/workspace.xml
-# Editor-based HTTP Client requests
-/httpRequests/
-# Datasource local storage ignored files
+# -------------------
+# IDE (IntelliJ IDEA)
+# -------------------
+.idea/
+*.iml
+*.iws
+/.vscode/
+workspace.xml
+shelf/
+httpRequests/
+
+# -------------------
+# OS
+# -------------------
+.DS_Store
+Thumbs.db
+
+# -------------------
+# Logs
+# -------------------
+*.log
+
+# -------------------
+# Build folders
+# -------------------
+/target/
+/out/
+/build/
+
+# -------------------
+# Maven
+# -------------------
+/.mvn/
+!/.mvn/wrapper/maven-wrapper.jar
+*.class
+dependency-reduced-pom.xml
+release.properties
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+*.bak
+
+# -------------------
+# Gradle (ถ้ามี)
+# -------------------
+.gradle/
+build/
+
+# -------------------
+# Spring Boot
+# -------------------
+/spring.log
+application*.properties
+
+# -------------------
+# Databases
+# -------------------
+*.db
+*.sqlite
 /dataSources/
 /dataSources.local.xml
+
+# -------------------
+# Temporary files
+# -------------------
+*.tmp
+*.swp
+*.swo
